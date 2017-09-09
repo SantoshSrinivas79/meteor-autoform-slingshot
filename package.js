@@ -7,17 +7,18 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'aldeed:simple-schema@1.3.3',
+    'aldeed:collection2-core',
+    'ecmascript@0.8.2',
   ]);
 
   api.use([
     'templating@1.1.1',
     'edgee:slingshot@0.7.1',
-    'aldeed:template-extension@3.4.3',
-    'aldeed:autoform@5.0.0',
+    'aldeed:template-extension',
+    'aldeed:autoform@6.2.0',
     'reactive-var@1.0.5',
     'underscore@1.0.4',
-    'tracker@1.0.9'
+    'tracker@1.0.9',
   ],'client');
 
   api.addFiles([

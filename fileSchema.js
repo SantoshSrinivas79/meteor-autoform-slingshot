@@ -1,3 +1,5 @@
+import SimpleSchema from 'simpl-schema';
+
 afSlingshot = {};
 
 afSlingshot.fileSchema = new SimpleSchema({
