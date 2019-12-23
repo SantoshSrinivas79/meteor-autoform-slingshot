@@ -13,9 +13,9 @@ Package.onUse(function(api) {
 
   api.use([
     'templating@1.1.1',
-    'edgee:slingshot@0.7.1',
+    'edgee:slingshot',
     'aldeed:template-extension',
-    'aldeed:autoform@6.2.0',
+    'aldeed:autoform@6.3.0',
     'reactive-var@1.0.5',
     'underscore@1.0.4',
     'tracker@1.0.9',
